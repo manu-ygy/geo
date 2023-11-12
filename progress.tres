@@ -1,0 +1,22 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://b0vcypc2t0jju"]
+
+[ext_resource type="Texture2D" uid="uid://d07xaevrui80k" path="res://Art Assets/pictures/progress-under.png" id="1_aiux1"]
+[ext_resource type="Texture2D" uid="uid://b7c6fdqsuf6ib" path="res://Art Assets/pictures/progress-over.png" id="2_6arpf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_87b0c"]
+texture = ExtResource("1_aiux1")
+texture_margin_left = 4.0
+texture_margin_top = 6.0
+texture_margin_right = 4.0
+texture_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p5brd"]
+texture = ExtResource("2_6arpf")
+texture_margin_left = 6.0
+texture_margin_top = 8.0
+texture_margin_right = 6.0
+texture_margin_bottom = 8.0
+
+[resource]
+ProgressBar/styles/background = SubResource("StyleBoxTexture_87b0c")
+ProgressBar/styles/fill = SubResource("StyleBoxTexture_p5brd")

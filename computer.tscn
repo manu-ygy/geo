@@ -1,0 +1,116 @@
+[gd_scene load_steps=7 format=3 uid="uid://cfft8xjqdxg6q"]
+
+[ext_resource type="Texture2D" uid="uid://dxghjdye8occm" path="res://Art Assets/desktop/House_White.png" id="1_hbwyk"]
+[ext_resource type="Texture2D" uid="uid://cqrbobjydtwm" path="res://Art Assets/desktop/File_White.png" id="1_me2nj"]
+[ext_resource type="FontFile" uid="uid://b5yvpgi2fqp53" path="res://Compliments/monogram.ttf" id="2_x1enh"]
+[ext_resource type="Texture2D" uid="uid://dq3eu3iq5tiaq" path="res://Art Assets/desktop/Internet_White.png" id="4_0qnoy"]
+
+[sub_resource type="Gradient" id="Gradient_fcn3p"]
+colors = PackedColorArray(0, 1, 1, 1, 0.290196, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_1r5mv"]
+gradient = SubResource("Gradient_fcn3p")
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="ComputerBg" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture1D_1r5mv")
+
+[node name="Icons" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(1.5, 1.5)
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="Wrapper" type="VBoxContainer" parent="Icons"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Home" type="MarginContainer" parent="Icons/Wrapper"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="Wrapper" type="VBoxContainer" parent="Icons/Wrapper/Home"]
+layout_mode = 2
+theme_override_constants/separation = -2
+
+[node name="Texture" type="TextureRect" parent="Icons/Wrapper/Home/Wrapper"]
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1_hbwyk")
+stretch_mode = 2
+
+[node name="Label" type="Label" parent="Icons/Wrapper/Home/Wrapper"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_x1enh")
+text = "Home"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Icons/Wrapper/Home"]
+layout_mode = 2
+
+[node name="File" type="MarginContainer" parent="Icons/Wrapper"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="Wrapper" type="VBoxContainer" parent="Icons/Wrapper/File"]
+layout_mode = 2
+theme_override_constants/separation = -2
+
+[node name="Texture" type="TextureRect" parent="Icons/Wrapper/File/Wrapper"]
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1_me2nj")
+stretch_mode = 2
+
+[node name="Label" type="Label" parent="Icons/Wrapper/File/Wrapper"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_x1enh")
+text = "Files"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Icons/Wrapper/File"]
+layout_mode = 2
+
+[node name="Internet" type="MarginContainer" parent="Icons/Wrapper"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="Wrapper" type="VBoxContainer" parent="Icons/Wrapper/Internet"]
+layout_mode = 2
+theme_override_constants/separation = -2
+
+[node name="Texture" type="TextureRect" parent="Icons/Wrapper/Internet/Wrapper"]
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("4_0qnoy")
+stretch_mode = 2
+
+[node name="Label" type="Label" parent="Icons/Wrapper/Internet/Wrapper"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_x1enh")
+text = "Internet"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Icons/Wrapper/Internet"]
+layout_mode = 2

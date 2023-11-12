@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://dcgn2iig6t5ve"]
+
+[ext_resource type="Script" path="res://Scripts/Trash.gd" id="1_31w72"]
+[ext_resource type="Texture2D" uid="uid://dp5a7cxhugrbq" path="res://icon.svg" id="1_elj16"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gfp5x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6twg8"]
+size = Vector2(57, 54)
+
+[node name="Trash" type="StaticBody2D"]
+z_index = 1
+z_as_relative = false
+y_sort_enabled = true
+script = ExtResource("1_31w72")
+
+[node name="Texture" type="Sprite2D" parent="."]
+scale = Vector2(0.294922, 0.294922)
+texture = ExtResource("1_elj16")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_gfp5x")
+
+[node name="PickupArea" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="PickupArea"]
+shape = SubResource("RectangleShape2D_6twg8")
+
+[connection signal="body_entered" from="PickupArea" to="." method="_on_pickup_area_body_entered"]
+[connection signal="body_exited" from="PickupArea" to="." method="_on_pickup_area_body_exited"]
