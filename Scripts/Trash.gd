@@ -3,6 +3,10 @@ extends StaticBody2D
 signal taken
 
 @onready var player = $/root/World/TileMap/Player
+@onready var sprite = $Sprite
+
+@onready var information = $/root/World/UI/Information/Label
+
 var player_inside = false
 
 var spawn_location
@@ -22,10 +26,13 @@ func _process(delta):
 func _on_pickup_area_body_entered(body):
 	if (body == player):
 		player_inside = true
+		information.show()
+		information.text = 'Tekan [E] untuk ambil'
 
 func _on_pickup_area_body_exited(body):
 	if (body == player):
 		player_inside = false
+		information.hide()
 		
 func _input(event):
 	if (Input.is_action_just_released('interact') and player_inside and added == false):

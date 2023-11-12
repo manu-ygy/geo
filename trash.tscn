@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://dcgn2iig6t5ve"]
 
 [ext_resource type="Script" path="res://Scripts/Trash.gd" id="1_31w72"]
-[ext_resource type="Texture2D" uid="uid://dp5a7cxhugrbq" path="res://icon.svg" id="1_elj16"]
+[ext_resource type="Texture2D" uid="uid://i22aynrjuxj7" path="res://Art Assets/trash.png" id="2_pjfqb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gfp5x"]
 
@@ -14,9 +14,9 @@ z_as_relative = false
 y_sort_enabled = true
 script = ExtResource("1_31w72")
 
-[node name="Texture" type="Sprite2D" parent="."]
-scale = Vector2(0.294922, 0.294922)
-texture = ExtResource("1_elj16")
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_pjfqb")
+hframes = 10
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_gfp5x")

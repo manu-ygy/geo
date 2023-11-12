@@ -169,7 +169,69 @@ layout_mode = 2
 size_flags_vertical = 0
 text = "Close window"
 
-[node name="Bookmarks" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+[node name="Label" type="Label" parent="Internet/Container/Wrapper"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Petisi: "
+
+[node name="ProgressBar" type="ProgressBar" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Lakukan kampanye:"
+
+[node name="Poster" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Internet/Container/Wrapper/Poster"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Posting poster lingkungan (+10% petisi): 20 koin"
+
+[node name="Button" type="Button" parent="Internet/Container/Wrapper/Poster"]
+layout_mode = 2
+text = "Lakukan"
+
+[node name="Ad" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Internet/Container/Wrapper/Ad"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Posting video iklan layanan masyarakat (+20% petisi): 50 koin"
+
+[node name="Button" type="Button" parent="Internet/Container/Wrapper/Ad"]
+layout_mode = 2
+text = "Lakukan"
+
+[node name="Live" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Internet/Container/Wrapper/Live"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Melakukan live (+50% petisi): 150 koin"
+
+[node name="Button" type="Button" parent="Internet/Container/Wrapper/Live"]
+layout_mode = 2
+text = "Lakukan"
+
+[node name="Influencer" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Internet/Container/Wrapper/Influencer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Bekerja sama bersama influencer (+100% petisi): 325 koin"
+
+[node name="Button" type="Button" parent="Internet/Container/Wrapper/Influencer"]
+layout_mode = 2
+text = "Lakukan"
 
 [connection signal="pressed" from="Icons/Wrapper/Home/Button" to="." method="_on_button_pressed"]
