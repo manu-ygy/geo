@@ -33,7 +33,7 @@ func spawn_trash():
 		
 		var trash = trash_instance.instantiate()
 		trash.trash_name = trash_list[randi() % trash_list.size()]
-		trash.spawn_location = trash.spawn_location
+		trash.spawn_location = spawn_location
 		add_child(trash)
 		
 		trash.position = map_to_local(spawn_location)

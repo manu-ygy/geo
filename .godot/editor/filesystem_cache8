@@ -1,0 +1,98 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699770962
+computer.tscn::PackedScene::5135321251080268142::1699770962::0::1::::<><>::res://Scripts/Computer.gd<>uid://dxghjdye8occm::::res://Art Assets/desktop/House_White.png<>uid://cqrbobjydtwm::::res://Art Assets/desktop/File_White.png<>uid://vfjt3jba827x::::res://Art Assets/desktop/bg.jpg<>uid://b5yvpgi2fqp53::::res://Compliments/monogram.ttf<>uid://dq3eu3iq5tiaq::::res://Art Assets/desktop/Internet_White.png<>res://Button.gd<>uid://dn3o3d3ttvwqe::::res://Art Assets/desktop/cursor.png<>uid://ct82pv6dco0es::::res://Art Assets/pictures/dialogbox.png
+icon.svg::CompressedTexture2D::8274083324598770950::1698970192::1698972208::1::::<><>::
+progress.tres::Theme::4184658792711417538::1699770372::0::1::::<><>::uid://d07xaevrui80k::::res://Art Assets/pictures/progress-under.png<>uid://b7c6fdqsuf6ib::::res://Art Assets/pictures/progress-over.png
+Button.gd::GDScript::-1::1699770535::0::1::::<>Button<>::
+TileMap.gd::GDScript::-1::1699768279::0::1::::<>TileMap<>::
+trash.tscn::PackedScene::7312863975081180430::1699767956::0::1::::<><>::res://Scripts/Trash.gd<>uid://dp5a7cxhugrbq
+tree.tscn::PackedScene::1840967850798781597::1699769042::0::1::::<><>::res://Scripts/Tree.gd<>uid://ccewcqd5i1m47::::res://Art Assets/tilesets/beach/tree.png<>uid://du80mnsq4v3u1::::res://Art Assets/pictures/tree-dialog.png<>uid://b5yvpgi2fqp53::::res://Compliments/monogram.ttf<>uid://bh0o638tnq01m::::res://Art Assets/pictures/button.png<>uid://b0vcypc2t0jju::::res://progress.tres
+world.tscn::PackedScene::4016230351304038289::1699770600::0::1::::<><>::uid://by086idobss57::::res://Art Assets/tilesets/beach/beach A5.png<>uid://b2rawoc56evwt::::res://Art Assets/tilesets/beach/beach flora C.png<>uid://cu12vdvo0qbnd::::res://Art Assets/charsets/GALVwellen2%(10).png<>uid://cc1g1v048n631::::res://Art Assets/tilesets/exterior modern/TEST Home C.png<>uid://bf1fwlsys85h1::::res://Art Assets/charsets/GALVwellen3%(10).png<>uid://b3nd2qu65g4fa::::res://Art Assets/tilesets/exterior modern/TEST Home D.png<>uid://dvcnptisxpw2a::::res://Art Assets/tilesets/exterior modern/TEST Home E.png<>uid://deouww7h0qmuv::::res://Art Assets/charsets/GALVwellen4%(10).png<>uid://dhruwpfabjadb::::res://Art Assets/tilesets/exterior modern/TEST Home Roofs B.png<>uid://c14e3aysbn5ge::::res://Art Assets/charsets/GALVwellen5%(10).png<>uid://dpykisyfpq2js::::res://Art Assets/charsets/GALVwellen6%(10).png<>uid://dfajitbr648t6::::res://Art Assets/tilesets/beach/beach stone B.png<>uid://bqlg86ef8jryk::::res://Art Assets/tilesets/cave_temple/Cave-A4.png<>uid://dvd0q37ljb51w::::res://Art Assets/charsets/GALVwellen1%(10).png<>uid://bvcnqx06yxi8t::::res://Art Assets/tilesets/cave_temple/Cave-A2.png<>uid://dc104vd351pnl::::res://Art Assets/tilesets/exterior modern/Home A2.png<>uid://lmyi21l8aknc::::res://Art Assets/tilesets/cave_temple/Cave-A5.png<>uid://pjekb2rgtu2f::::res://Art Assets/tilesets/cave_temple/Cave-decor C.png<>uid://bp6s023wliito::::res://Art Assets/tilesets/exterior modern/Home A3.png<>uid://ca654eps0qbnm::::res://Art Assets/tilesets/cave_temple/Cave-structure B.png<>uid://b52ft2el5aj62::::res://Art Assets/tilesets/exterior modern/Home A4.png<>res://Scripts/Player.gd<>uid://bee47oe1au0up::::res://Art Assets/tilesets/exterior modern/Home A5.png<>uid://ct82pv6dco0es::::res://Art Assets/pictures/dialogbox.png<>uid://cftqnmse8ntmj::::res://Art Assets/tilesets/beach/extended.png<>uid://cf4fxsk51yl4v::::res://Art Assets/tilesets/interior modern/Interior A4.png<>uid://ta1hpjjb7w5a::::res://Art Assets/tilesets/interior modern/Interior A5.png<>uid://c216m20i3aot4::::res://Art Assets/tilesets/interior modern/Interior clutter C.png<>uid://dk5joumr2xwkv::::res://Art Assets/tilesets/interior modern/Interior attic D.png<>uid://cvtjcbegwaubv::::res://Art Assets/tilesets/interior modern/Interior furniture B.png<>uid://bvrl84lougtx::::res://Art Assets/charsets/GALVoma-walk%(6).png<>res://TileMap.gd<>uid://b5yvpgi2fqp53::::res://Compliments/monogram.ttf<>uid://cwumnpwmdm8eu::::res://Art Assets/charsets/GALVkid-walk%(6).png<>res://Scripts/Teleporter.gd<>uid://ookhndr5xuma::::res://Art Assets/pictures/profile.png<>uid://bit4c1qldsdft::::res://Art Assets/pictures/coin-bg.png<>uid://b0vcypc2t0jju::::res://progress.tres
+::res://Art Assets/::1699767956
+iconSet.png::CompressedTexture2D::8358570490647406740::1698970192::1698972208::1::::<><>::
+Window.png::CompressedTexture2D::7935747288898904912::1698970192::1698972208::1::::<><>::
+::res://Art Assets/charsets/::1698972210
+!blöcke.png::CompressedTexture2D::1155213719617057917::1698970192::1698972208::1::::<><>::
+!symbols.png::CompressedTexture2D::253099639190677837::1698970192::1698972208::1::::<><>::
+!tor1.png::CompressedTexture2D::1224147625236887849::1698970192::1698972209::1::::<><>::
+!tor2.png::CompressedTexture2D::6912342976599899584::1698970192::1698972209::1::::<><>::
+!trittplatten-charset.png::CompressedTexture2D::2615126318694706063::1698970192::1698972208::1::::<><>::
+GALVkid-hop%(6).png::CompressedTexture2D::2160219540109094143::1698970192::1698972208::1::::<><>::
+GALVkid-walk%(6).png::CompressedTexture2D::6359036124123764656::1698970192::1698972208::1::::<><>::
+GALVkid-walk-halstuch%(6).png::CompressedTexture2D::2021565174578825333::1698970192::1698972208::1::::<><>::
+GALVkid-walk-halstuch_u_tasche%(6).png::CompressedTexture2D::7652297240624483273::1698970192::1698972208::1::::<><>::
+GALVmöve-mit key%(8).png::CompressedTexture2D::4775001994843978171::1698970192::1698972210::1::::<><>::
+GALVmöve-ohne key%(8).png::CompressedTexture2D::6862422760638597541::1698970192::1698972210::1::::<><>::
+GALVoma-walk%(6).png::CompressedTexture2D::114594387672446293::1698970192::1698972209::1::::<><>::
+GALVsister-walk%(6).png::CompressedTexture2D::6140882109204551353::1698970192::1698972208::1::::<><>::
+GALVwellen1%(10).png::CompressedTexture2D::8640968918861239418::1698970192::1698972209::1::::<><>::
+GALVwellen2%(10).png::CompressedTexture2D::6231969112910179281::1698970192::1698972210::1::::<><>::
+GALVwellen3%(10).png::CompressedTexture2D::2791382202597724456::1698970192::1698972209::1::::<><>::
+GALVwellen4%(10).png::CompressedTexture2D::7470173546809050845::1698970192::1698972210::1::::<><>::
+GALVwellen5%(10).png::CompressedTexture2D::6657911164938206336::1698970192::1698972210::1::::<><>::
+GALVwellen6%(10).png::CompressedTexture2D::8262262210769618496::1698970192::1698972210::1::::<><>::
+key.png::CompressedTexture2D::5684957843394518219::1698970192::1698972209::1::::<><>::
+kid-hop.png::CompressedTexture2D::9180833115027442407::1698970192::1698972209::1::::<><>::
+kid-walk-halstuch.png::CompressedTexture2D::3226142824916429719::1698970192::1698972210::1::::<><>::
+kid-walk-halstuch_u_tasche.png::CompressedTexture2D::382864373715693784::1698970192::1698972210::1::::<><>::
+kid-walk.png::CompressedTexture2D::3190671033385614443::1698970192::1698972210::1::::<><>::
+möve-sit.png::CompressedTexture2D::2909123711983352561::1698970192::1698972210::1::::<><>::
+sister-walk.png::CompressedTexture2D::2772460828649611378::1698970192::1698972210::1::::<><>::
+::res://Art Assets/desktop/::1699770510
+bg.jpg::CompressedTexture2D::1484869472791878699::1699769264::1699769267::1::::<><>::
+bg.png::::-1::0::0::0::::<><>::
+cursor.png::CompressedTexture2D::8130419837329554356::1699770483::1699770510::1::::<><>::
+File_White.png::CompressedTexture2D::174442443324793916::1699767956::1699767986::1::::<><>::
+House_White.png::CompressedTexture2D::8786433007244665816::1699767956::1699767986::1::::<><>::
+Internet_White.png::CompressedTexture2D::8340366194030711080::1699767956::1699767986::1::::<><>::
+::res://Art Assets/pictures/::1699767986
+button.png::CompressedTexture2D::2930258953034258260::1699767956::1699767986::1::::<><>::
+coin-bg.png::CompressedTexture2D::2988920365331017321::1699767956::1699767986::1::::<><>::
+coin.png::CompressedTexture2D::2126008707081184133::1699767956::1699767986::1::::<><>::
+dialogbox.png::CompressedTexture2D::6176221159124906158::1698970192::1698972210::1::::<><>::
+GALVwellen1%(10).png::CompressedTexture2D::2619326786786182178::1698970192::1698972209::1::::<><>::
+Gürteltasche.png::CompressedTexture2D::5423547736209610116::1698970192::1698972208::1::::<><>::
+Latzhose.png::CompressedTexture2D::637122201855831274::1698970192::1698972208::1::::<><>::
+profile.png::CompressedTexture2D::1012165458225674080::1699767956::1699767986::1::::<><>::
+progress-over.png::CompressedTexture2D::4638483774495259829::1699767956::1699767986::1::::<><>::
+progress-under.png::CompressedTexture2D::8981439964327429952::1699767956::1699767986::1::::<><>::
+tree-dialog.png::CompressedTexture2D::8632703455446554154::1699767956::1699767986::1::::<><>::
+::res://Art Assets/tilesets/::1698970192
+::res://Art Assets/tilesets/beach/::1699767986
+beach A5.png::CompressedTexture2D::4124621820689093764::1698970192::1698972208::1::::<><>::
+beach flora C-sheet.png::CompressedTexture2D::2731405989216968587::1699077873::1699077875::1::::<><>::
+beach flora C.png::CompressedTexture2D::4316653911026081571::1699767956::1699767986::1::::<><>::
+beach stone B.png::CompressedTexture2D::7510768008859066849::1699076577::1699076615::1::::<><>::
+extended-sheet.png::CompressedTexture2D::2498542354137674775::1699767956::1699767986::1::::<><>::
+extended.png::CompressedTexture2D::5164004108421582181::1699767956::1699767986::1::::<><>::
+tree.png::CompressedTexture2D::4922816757489983738::1699767956::1699767986::1::::<><>::
+::res://Art Assets/tilesets/cave_temple/::1698972208
+Cave-A2.png::CompressedTexture2D::3865334297306991341::1698970192::1698972208::1::::<><>::
+Cave-A4.png::CompressedTexture2D::3532575205026459638::1698970192::1698972208::1::::<><>::
+Cave-A5.png::CompressedTexture2D::798322766083977300::1698970192::1698972208::1::::<><>::
+Cave-decor C.png::CompressedTexture2D::1071672875281398979::1698970192::1698972208::1::::<><>::
+Cave-structure B.png::CompressedTexture2D::4838710609685634394::1698970192::1698972208::1::::<><>::
+::res://Art Assets/tilesets/exterior modern/::1698972208
+Home A2.png::CompressedTexture2D::7354884381741413617::1698970192::1698972208::1::::<><>::
+Home A3.png::CompressedTexture2D::3504388061756439524::1698970192::1698972208::1::::<><>::
+Home A4.png::CompressedTexture2D::4548163132091274653::1698970192::1698972208::1::::<><>::
+Home A5.png::CompressedTexture2D::2677252250144910203::1698970192::1698972208::1::::<><>::
+TEST Home C.png::CompressedTexture2D::4967304751838684710::1698970192::1698972208::1::::<><>::
+TEST Home D.png::CompressedTexture2D::4378776456493064846::1698970192::1698972208::1::::<><>::
+TEST Home E.png::CompressedTexture2D::8638173641951917590::1698970192::1698972208::1::::<><>::
+TEST Home Roofs B.png::CompressedTexture2D::7686932801261747455::1698970192::1698972208::1::::<><>::
+::res://Art Assets/tilesets/interior modern/::1699767986
+Interior A4.png::CompressedTexture2D::5183998160934853691::1698970192::1698972208::1::::<><>::
+Interior A5.png::CompressedTexture2D::1335179973656908868::1698970192::1698972208::1::::<><>::
+Interior attic D.png::CompressedTexture2D::7923654343945055945::1699767956::1699767986::1::::<><>::
+Interior clutter C.png::CompressedTexture2D::6723519080672731739::1698970192::1698972208::1::::<><>::
+Interior furniture B.png::CompressedTexture2D::6286580344639328807::1698970192::1698972208::1::::<><>::
+::res://Compliments/::1699078339
+monogram.ttf::FontFile::4542933231420797956::1695166603::1699078339::1::::<><>::
+::res://Scripts/::1699770598
+Computer.gd::GDScript::-1::1699770598::0::1::::<>CanvasLayer<>::
+Player.gd::GDScript::-1::1699767956::0::1::::<>CharacterBody2D<>::
+Teleporter.gd::GDScript::-1::1699767956::0::1::::<>Area2D<>::
+Trash.gd::GDScript::-1::1699768173::0::1::::<>StaticBody2D<>::
+TrashStop.gd::GDScript::-1::1699767956::0::1::::<>Area2D<>::
+Tree.gd::GDScript::-1::1699769042::0::1::::<>StaticBody2D<>::

@@ -1,17 +1,17 @@
-[gd_scene load_steps=7 format=3 uid="uid://cfft8xjqdxg6q"]
+[gd_scene load_steps=10 format=3 uid="uid://cfft8xjqdxg6q"]
 
+[ext_resource type="Script" path="res://Scripts/Computer.gd" id="1_c51l0"]
 [ext_resource type="Texture2D" uid="uid://dxghjdye8occm" path="res://Art Assets/desktop/House_White.png" id="1_hbwyk"]
 [ext_resource type="Texture2D" uid="uid://cqrbobjydtwm" path="res://Art Assets/desktop/File_White.png" id="1_me2nj"]
+[ext_resource type="Texture2D" uid="uid://vfjt3jba827x" path="res://Art Assets/desktop/bg.jpg" id="1_qpxuw"]
 [ext_resource type="FontFile" uid="uid://b5yvpgi2fqp53" path="res://Compliments/monogram.ttf" id="2_x1enh"]
 [ext_resource type="Texture2D" uid="uid://dq3eu3iq5tiaq" path="res://Art Assets/desktop/Internet_White.png" id="4_0qnoy"]
+[ext_resource type="Script" path="res://Button.gd" id="5_yu1r3"]
+[ext_resource type="Texture2D" uid="uid://dn3o3d3ttvwqe" path="res://Art Assets/desktop/cursor.png" id="7_jxpdp"]
+[ext_resource type="Texture2D" uid="uid://ct82pv6dco0es" path="res://Art Assets/pictures/dialogbox.png" id="9_jca7h"]
 
-[sub_resource type="Gradient" id="Gradient_fcn3p"]
-colors = PackedColorArray(0, 1, 1, 1, 0.290196, 1, 1, 1)
-
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_1r5mv"]
-gradient = SubResource("Gradient_fcn3p")
-
-[node name="CanvasLayer" type="CanvasLayer"]
+[node name="Computer" type="CanvasLayer"]
+script = ExtResource("1_c51l0")
 
 [node name="ComputerBg" type="TextureRect" parent="."]
 anchors_preset = 15
@@ -19,7 +19,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("GradientTexture1D_1r5mv")
+texture = ExtResource("1_qpxuw")
+expand_mode = 1
 
 [node name="Icons" type="MarginContainer" parent="."]
 offset_right = 40.0
@@ -59,7 +60,10 @@ text = "Home"
 horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="Icons/Wrapper/Home"]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
 layout_mode = 2
+script = ExtResource("5_yu1r3")
 
 [node name="File" type="MarginContainer" parent="Icons/Wrapper"]
 layout_mode = 2
@@ -114,3 +118,58 @@ horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="Icons/Wrapper/Internet"]
 layout_mode = 2
+
+[node name="Cursor" type="Sprite2D" parent="."]
+z_index = 100
+z_as_relative = false
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("7_jxpdp")
+
+[node name="Internet" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="Bg" type="NinePatchRect" parent="Internet"]
+layout_mode = 2
+texture = ExtResource("9_jca7h")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 22
+patch_margin_bottom = 24
+
+[node name="Container" type="MarginContainer" parent="Internet"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="Wrapper" type="VBoxContainer" parent="Internet/Container"]
+layout_mode = 2
+
+[node name="Headings" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Internet/Container/Wrapper/Headings"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_x1enh")
+text = "Internet"
+
+[node name="Button" type="Button" parent="Internet/Container/Wrapper/Headings"]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Close window"
+
+[node name="Bookmarks" type="HBoxContainer" parent="Internet/Container/Wrapper"]
+layout_mode = 2
+
+[connection signal="pressed" from="Icons/Wrapper/Home/Button" to="." method="_on_button_pressed"]

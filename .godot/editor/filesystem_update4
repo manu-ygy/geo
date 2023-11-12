@@ -1,0 +1,4 @@
+res://world.tscn
+res://progress.tres
+res://computer.tscn
+res://Scripts/Computer.gd
